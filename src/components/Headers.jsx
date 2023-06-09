@@ -30,7 +30,7 @@ export const Header = (prop) => {
         }
     }, [])
   return (
-    <header ref={header} className='h-[10%] min-h-[10%] containers overflow-hidden flex justify-between items-center text-sm/none group-[&.error]:text-white'>
+    <header ref={header} className='h-[10%] containers overflow-hidden flex justify-between items-center text-sm/none group-[&.error]:text-white'>
         <div className="left-wrapper">
             <Link to="/" className='flex justify-center items-center gap-x-1'>
                 <div className="logo w-[18px] h-[18px] hover:animate-[spin_2s_cubic-bezier(0.18,0.89,0.32,1.28)_infinite]">
