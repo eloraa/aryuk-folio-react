@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('../assets/static/fonts/kudryashev.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-size: 100%;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    user-select: none;
+  }
+  html,
+  body,
+  #__root {
+    height: 100%;
+  }
+  body {
+    @apply bg-white text-black
+  }
+  ::-moz-scrollbar{
+    width: 0;
+    height: 0;
+    background: transparent;
+    display: none;
+  }
+  ::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+    background: transparent;
+    display: none;
+  }
+  ::-scrollbar{
+    width: 0;
+    height: 0;
+    background: transparent;
+    display: none;
+  }
+  img,
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+}
+@layer utilities {
+  .containers {
+    @apply px-5 py-5 sm:px-10 sm:py-5;
+  }
+}
